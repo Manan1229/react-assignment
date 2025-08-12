@@ -1,0 +1,23 @@
+{
+  "name": "react-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@types/react-router-dom": "^5.3.3",
+    "install": "^0.13.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.0",
+    "typescript": "^5.9.2",
+    "typescriptnpm": "^1.0.1"
+  }
+}

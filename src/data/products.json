@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop",
+    "description": "Premium wireless headphones with noise cancellation and superior sound quality.",
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Smart Fitness Watch",
+    "price": 199.99,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=300&fit=crop",
+    "description": "Advanced fitness tracker with heart rate monitoring and GPS functionality.",
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Portable Bluetooth Speaker",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300&h=300&fit=crop",
+    "description": "Compact speaker with powerful bass and long-lasting battery life.",
+    "category": "Electronics"
+  },
+  {
+    "id": 4,
+    "name": "Organic Cotton T-Shirt",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300&h=300&fit=crop",
+    "description": "Soft and comfortable organic cotton t-shirt in various colors.",
+    "category": "Clothing"
+  },
+  {
+    "id": 5,
+    "name": "Eco-Friendly Water Bottle",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=300&h=300&fit=crop",
+    "description": "Reusable stainless steel water bottle that keeps drinks cold for 24 hours.",
+    "category": "Lifestyle"
+  },
+  {
+    "id": 6,
+    "name": "Gaming Mechanical Keyboard",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=300&h=300&fit=crop",
+    "description": "RGB backlit mechanical keyboard with tactile switches for gaming.",
+    "category": "Electronics"
+  }
+]
