@@ -12,7 +12,6 @@ const Navigation: React.FC = () => {
         <Link to="/" className="nav-logo">
           <h2>E-Commerce Store</h2>
         </Link>
-        
         <ul className="nav-links">
           <li>
             <Link to="/" className="nav-link">Home</Link>

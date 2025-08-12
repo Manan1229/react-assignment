@@ -9,7 +9,7 @@ const ProductDetail: React.FC = () => {
   const { addToCart } = useCart();
 
   useEffect(() => {
-    const foundProduct = productsData.find(p => p.id === parseInt(id || '0'));
+    const foundProduct = productsData.find(p => p.id === parseInt(id || '0', 10));
     setProduct(foundProduct || null);
   }, [id]);
 

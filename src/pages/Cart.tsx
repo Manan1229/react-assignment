@@ -38,40 +38,35 @@ const Cart: React.FC = () => {
           Clear Cart
         </button>
       </div>
-
       <div className="cart-content">
         <div className="cart-items">
           {state.items.map(item => (
             <div key={item.id} className="cart-item">
               <img src={item.image} alt={item.name} className="cart-item-image" />
-              
               <div className="cart-item-details">
                 <h3>{item.name}</h3>
                 <p className="cart-item-category">{item.category}</p>
                 <p className="cart-item-price">${item.price.toFixed(2)} each</p>
               </div>
-
               <div className="cart-item-quantity">
-                <button 
+                <button
                   onClick={() => handleQuantityChange(item.id, item.quantity - 1)}
                   className="quantity-btn"
                 >
                   -
                 </button>
                 <span className="quantity-display">{item.quantity}</span>
-                <button 
+                <button
                   onClick={() => handleQuantityChange(item.id, item.quantity + 1)}
                   className="quantity-btn"
                 >
                   +
                 </button>
               </div>
-
               <div className="cart-item-total">
                 <p>${(item.price * item.quantity).toFixed(2)}</p>
               </div>
-
-              <button 
+              <button
                 onClick={() => removeFromCart(item.id)}
                 className="remove-item-btn"
               >
@@ -80,7 +75,6 @@ const Cart: React.FC = () => {
             </div>
           ))}
         </div>
-
         <div className="cart-summary">
           <h2>Order Summary</h2>
           <div className="summary-line">

@@ -32,9 +32,9 @@ const Products: React.FC = () => {
 
       <div className="filter-section">
         <label htmlFor="category-filter">Filter by Category:</label>
-        <select 
+        <select
           id="category-filter"
-          value={categoryFilter} 
+          value={categoryFilter}
           onChange={(e) => setCategoryFilter(e.target.value)}
         >
           {categories.map(category => (

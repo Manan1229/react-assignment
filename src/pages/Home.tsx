@@ -16,7 +16,6 @@ const Home: React.FC = () => {
         <h1>Welcome to Our Store</h1>
         <p>Discover amazing products at great prices</p>
       </header>
-      
       <section className="featured-products">
         <h2>Featured Products</h2>
         <div className="products-grid">
